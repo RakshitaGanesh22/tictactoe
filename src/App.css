@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:1rem;
 }
 
 .App-logo {
@@ -35,4 +40,32 @@
   to {
     transform: rotate(360deg);
   }
+}
+.style1{
+  
+  display: flex;
+  justify-content: space-between;
+  gap:2rem;
+}
+.arrStyle{
+  margin-top: 2rem;
+  max-width: 300px;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.button{
+  width:100px;
+  height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-style: oblique;
+  font-weight: 600;
+}
+.button:disabled{
+ color: black;
 }
